@@ -1,0 +1,39 @@
+.main
+{
+
+    height: 1000px;
+    width: 1000px;
+    border: 10px dotted goldenrod;
+    font-size: 10px;
+    color: yellow;
+    background: url('img.kanha.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+    
+}
+#ho
+{
+    height: 70px;
+    width: 1000px;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+    border: 1px dotted green;
+    background-color: aquamarine;
+    
+    position: fixed;
+}
+.head
+
+{
+    height: 80px;
+    width: 1000px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid hotpink;
+    background-color:maroon;
+    
+    position: fixed;
+}
