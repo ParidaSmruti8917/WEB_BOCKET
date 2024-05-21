@@ -1,0 +1,26 @@
+// Variable: it can able to store the data.
+
+// Syntax: var,let and const(keywords).
+
+// Recommended--->let and const.
+
+Example: let num=10;
+
+// Javascript is case-sensitive. (A != a)
+// let second num =1000; (space dosn't allow while declaring variable.)
+
+
+//String:
+
+--> String is a collection of Character.
+--->string is always write in "name".
+---. using backtick
+
+//number():built-in constuctor function;
+//string():built-in constructor function;
+
+
+truthy value:non-zero number(1,-1,2..etc), non empty string("namita"),objects({}).truth
+
+
+falsy value:false,0n,null,undefined,nAN,""

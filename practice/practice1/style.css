@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 533px;
+    width: 800px;
+    background: url(img3.jpg) no-repeat ;
+    background-size: cover;
+}
+.main{
+    height: 50px;
+    width: 10000px;
+    background-color: rgb(244, 241, 241);
+}
+nav{
+    font-size: 30px;
+   
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 237, 237);
+    background-color: black;
+}
+a:hover
+{
+    background-color:orangered ;
+    color: black;
+    font-size: 10px;
+    transition: 5s;
+}
+body:hover{
+    height: 533px;
+    width: 800px;
+    background-image: url(ima3.webp);
+}

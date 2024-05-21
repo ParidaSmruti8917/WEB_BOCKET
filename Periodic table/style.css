@@ -20,8 +20,15 @@
 }
 #box-2{
     grid-column-start: 18;
+    background-color: brown;
+    transform:translate(20 deg);
     
     
+}
+#box-2:hover{
+    background-color: blue;
+    transition-duration: 1s;
+    /* transform: rotate(90 deg); */
 }
 #box-5
 {
@@ -146,10 +153,11 @@
 #box-102
 {
     grid-area: 11/17/12/18;
+    transform: rotate(30deg);
 }
 #box-103
 {
     grid-area: 11/18/12/19;
-}
 
+}
 

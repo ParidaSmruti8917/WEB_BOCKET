@@ -1,0 +1,41 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.container{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    transform: rotate(30deg);
+    
+}
+/* .box
+{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+}
+.box1
+{
+    height: 20px;
+    width: 30px;
+    background-color: blueviolet;
+    border: 1px solid black;
+    
+}
+.box2{
+    height: 20px;
+    width: 30px;
+    grid-row: 4;
+    background-color: brown;
+}
+.box3{
+    height: 10px;
+    width: 30px;
+    background-color: yellowgreen;
+    border: 1px solid maroon;
+    transform: rotate(30 deg);
+} */
