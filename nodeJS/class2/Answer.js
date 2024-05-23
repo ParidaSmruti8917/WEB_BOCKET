@@ -8,10 +8,18 @@
 
  //q-3-ans
 
-let Birthday1= new Date('2000/11/29');
-let currentTime = new Date
-console.log(Birthday.currentTime);
+ let currentDate = new Date("2024-05-22"); // format
 
+ let currentDay = currentDate.getDate();
+ let currentMonth = currentDate.getMonth();
+ let currentYear = currentDate.getFullYear();
+ 
+ let MyBirthday = new Date("2000-01-01"); // format
+ 
+ let birthDay = MyBirthday.getDate();
+ let birthMonth = MyBirthday.getMonth() + 1; // Months are zero-indexed
+ let birthYear = MyBirthday.getFullYear();
+ 
 //q-4-ans
 //push method used in js for adding new element to the end of an array,it modify the original array also increase its length.
 
@@ -72,6 +80,28 @@ let myAry=[10,20,30];
 myAry.push(40);
 console.log(myAry.pop());
 console.log(myAry);
+
+
+//q-14-ans
+let numm1=[1,2,3]
+console.log(numm1);//1 2 3
+
+//step-2
+numm1.push(4);
+console.log(numm1);//1 2 3 4
+//step-3
+numm1.shift();
+console.log(numm1);//2 3 4
+
+//q-15-ans
+//step-1
+let fruits1=["mango","lichi"];
+let fruits2=["ice apple","kiwi","lichi"];
+let con=fruits1.concat(fruits2);//mango,lichi,ice apple,kiwi,lichi
+console.log(con);
+let dup=[new Set(con)];//mango,lichi,ice apple.kiwi.lichi
+console.log(dup);
+
 
 
 
