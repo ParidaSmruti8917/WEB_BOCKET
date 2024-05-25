@@ -48,3 +48,30 @@ newStudent.age=23,
 
 console.log(student.name);
 console.log(student["marks"]);
+
+
+//modifying object
+student.name="namita";//dot notation
+student.age="24";
+console.log(student);
+
+//bracket notation
+student["name"]="chubu";
+student["age"]=24;
+console.log(student);
+
+//deleting obj 
+delete student.age;
+console.log(student);
+
+//obj keys
+let keys=Object.keys(student);
+console.log(keys);//its give uh only keys
+
+//object value
+let value=Object.values(student);
+console.log(value);//it gives uh  the keys  value
+
+//object entries
+let entry=Object.entries(student);
+console.log(entry);//both key and values
